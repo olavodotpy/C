@@ -1,4 +1,4 @@
-![C](https://i.imgur.com/zIdQCfh.png)
+![C](https://i.imgur.com/zIdQCfhm.png)
 
 # Install on Ubuntu
 
@@ -17,13 +17,15 @@ gcc --version
 
 # Install the extension for vscode
 
-[C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+>[C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
 # Transform Code into machine language
 
 ```bash
 gcc file_name.c -o name
 ```
+
+# Run the code
 
 ```bash
 ./name
