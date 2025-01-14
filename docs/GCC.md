@@ -23,3 +23,24 @@ gcc -o elementsWorksheets profile.c requests.c contracts.c
 ```
 
 e todos eles serão reunidos em um grande arquivo executável.
+
+Outra funcionalidade do GCC é forçar o usos dos padrões C como K&R C, C89, ANSI C, etc.. usando o ```-std=arg``` e se quiser a alteração por padrão, acrecente ```-pedantic```
+
+```gcc
+gcc -std=c2x -pedantic foo.c
+```
+
+Para identificar o seu padrão C atual é so usar o ```man``` de manual no terminal da sua distro linux, junto com o pipe e grep para logo localizar a versão.
+
+```bash
+man gcc | grep -e "-std=c"
+```
+
+irá aparecer um comentário e algo assim:
+
+```bash
+The default  when  in  a  standards  compliant  mode  -std=c11  or
+This flag is enabled by default for -std=c++17.
+```
+
+aqui localizamos que o padrão C usado por padrão no meu sistema é o c11.
