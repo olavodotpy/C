@@ -1,6 +1,6 @@
-# Compilador C
+## Compilador C
 
-Um compilador como o (gcc) ou clang é um programa de sistema que traduz o código-fonte descrito em uma linquagem de alto nível para um programa equivalente em código de máquina para um processador ou um (ambiente virtual próprio). Em geral, um compilador não produz diretamente o código de máquina mas sim um programa em linguagem simbóloca(assembly) semanticamente equivalente ao programa em linguagem de alto nivel. O programa em linguagem simbólica é então traduzido para o programa em linguagem de máquina através de montadores.
+Um compilador como o [gcc](https://github.com/olavodotpy/C/blob/Master/docs/GCC.md) ou clang é um programa de sistema que traduz o código-fonte descrito em uma linquagem de alto nível para um programa equivalente em código de máquina para um processador ou um [ambiente virtual próprio](https://github.com/olavodotpy/C/blob/Master/docs/GCC.md). Em geral, um compilador não produz diretamente o código de máquina mas sim um programa em linguagem simbóloca(assembly) semanticamente equivalente ao programa em linguagem de alto nivel. O programa em linguagem simbólica é então traduzido para o programa em linguagem de máquina através de montadores.
 
 Para desempenhar suas tarefas, um compilador deve executar dois tipos de atividade. A primeira é a análise do código fonte, onde a estrutura e significado do programa de alto nível são reconhecidos. A segunda atividade é a síntese do programa equivalente em linquagem simbólica. Embora conceitualmente seja possível executar toda a análise e apenas então iniciar a síntese, en geral estas duas atividades ocorrem em praticamente em paralelo.
 
