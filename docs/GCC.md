@@ -1,6 +1,6 @@
 ## GCC, the GNU Compiler Collection
 
-Todo o código-fonte de C precisa passar por um processo manual de compilação para assim, seu sistema operacional executar. Em outras linguagens como Javacript e Python o processo de compilação é escondido do desenvolvedor. No Python e em linguagens [interpretadas](https://github.com/olavodotpy/C/blob/Master/docs/INTERPRETADOR.md), o desenvolvedor apenas executa o programa e não sabe o que acontece depois disso. O fluxo de execução do Python é o seguinte:
+Todo o código-fonte de C precisa passar por um processo manual de compilação para assim, seu sistema operacional executar. Em outras linguagens como Javacript e Python o processo de compilação é escondido do desenvolvedor. No Python e em linguagens interpretadas, o desenvolvedor apenas executa o programa e não sabe o que acontece depois disso. O fluxo de execução do Python é o seguinte:
 
 ```
  sourceCode.py -> compilação para bytecode -> interpretação pela PVM(Python Virtual Machine)
