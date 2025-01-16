@@ -10,4 +10,8 @@ int main(void) {
     }
 
     printf("all done!\n");
+
+    while (1) {
+        printf("repeats forever\n");
+    }
 }
