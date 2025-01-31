@@ -10,4 +10,8 @@ int main(void) {
     // da esquerda para a direita, sempre priorizando o mais da direita
         printf("%d, %d\n", i, j);
     }
+
+    for (;;) {
+        printf("for empty\n");
+    }
 }

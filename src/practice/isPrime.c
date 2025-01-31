@@ -16,7 +16,6 @@ bool isPrime(int n){
     }
 
     return (divisors == 2); 
-
 }
 
 int main(void) {
