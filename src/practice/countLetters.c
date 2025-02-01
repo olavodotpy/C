@@ -8,7 +8,7 @@ int count_letters(char *array, int size, char target_char) {
 
     for (int i = 0; i < size; i++) {
         if (array[i] == target_char) {
-            count += 1;
+            count++;
         }
     }
 
@@ -17,11 +17,18 @@ int count_letters(char *array, int size, char target_char) {
 
 int main(void) {
 
-    char phrase[] = "pneumoultramicroscopicossilicovulcanoconiótico";
+    char phrase[100];
+    char letter;
+
+    printf("Enter a phrase or word: ");
+    scanf(" %99s", phrase);
+
+    printf("Letter you want to count: ");
+    scanf(" %c", &letter);
 
     int sizeArray = strlen(phrase);
 
-    printf("%d\n", count_letters(phrase, sizeArray, 'o'));
+    printf("%s contains %d letter(s) '%c'\n", phrase, count_letters(phrase, sizeArray, letter), letter);
 
     return 0;
 }
